@@ -1,0 +1,18 @@
+initialize repo:           git init 
+Add remote repo if needed: git remote add origin <repo_link>
+check remote:              git remote -v
+check Branch:              git Branch
+change Branch:             git checkout <Branch_name>
+add files:                 git add .
+commit change:             git commit -m "<enter message>"
+push change:               git push -u origin <Branch_name>
+observe changes:           git fetch
+merge changes:             git merge <Branch_name>
+                                    or 
+                           git pull <Branch_name>
+check difference:          git diff 
+check selective history:   git cherry-pick <ID>
+Save un-commited change:   git stash 
+                           git stash branch <Branch_name>(for new branch)
+                           git stash push -m "<update>"
+
