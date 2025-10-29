@@ -1,5 +1,6 @@
 initialize repo:           git init 
 Add remote repo if needed: git remote add origin <repo_link>
+remove remote:             git remote remove origin
 check remote:              git remote -v
 check Branch:              git Branch
 change Branch:             git checkout <Branch_name>
